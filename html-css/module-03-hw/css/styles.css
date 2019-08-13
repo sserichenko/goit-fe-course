@@ -1,0 +1,127 @@
+html 
+    *
+    *::before,
+    *::after {
+        box-sizing: inherit;
+}
+.container {
+    width: 902px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+/*Navigation*/
+.navigation {
+    padding: 72px 0;
+    margin-bottom: 30px;
+}
+.navigation-menu {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding-inline-start: 0;
+}
+.navigation-menu-item {
+    display: inline-block;
+    text-decoration: none;
+}
+.navigation-menu-item a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+}
+.navigation-menu-item a:hover,
+.navigation-menu-item a:focus {
+    color: #03a9f4;
+}
+.navigation-menu li:nth-child(1) {
+    margin-right: 120px;
+}
+.navigation-menu li:nth-child(2) {
+    margin-right: 104px;
+}
+.navigation-menu li:nth-child(3) {
+    margin-right: 94px;
+}
+/*Section about*/
+.visually-hidden:not(:focus):not(:active),
+    input[type="checkbox"].visually-hidden,
+    input[type="radio"].visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0 );
+        overflow: hidden;
+    }
+.about {
+    margin-bottom: 52px;
+}
+.about-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.about-menu-item {
+    width: 420px;
+    display: inline-block;
+}
+.about-menu li:not(:nth-Child(n+4)) {
+    margin-bottom: 130px;
+}
+.about-menu li:nth-Child(2n+1) {
+    margin-right: 58px;
+}
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4ad9e;
+}
+h3 {
+    margin-bottom:34px;
+    font-size: 30px;
+    line-height: 36px;
+}
+/*Button*/
+.load-more {
+    text-align: center;
+}
+.button {
+    border: none;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 70px;
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    padding: 22px 34px;
+    color:#626262;
+    background-color: #ffffff;
+}
+.button:hover,
+.button:focus {
+    color: #03a9f4;
+    cursor: pointer;
+}
