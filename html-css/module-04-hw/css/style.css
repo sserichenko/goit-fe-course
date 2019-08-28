@@ -137,59 +137,6 @@ img {
     float: right;
     font-weight: 700;
 }
-
-/*.features-list-item:nth-child(4n+1) .product-name::after {
-    display: block;
-    content: "\0024 26";
-    width: 54px;
-    margin-right: 0;
-    color: #ffffff;
-    background-color: #d4d6da;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 32px;
-    float: right;
-}
-.features-list-item:nth-child(4n) .product-name::after {
-    display: block;
-    content: "\0024 56";
-    width: 54px;
-    margin-right: 0;
-    color: #ffffff;
-    background-color: #d4d6da;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 32px;
-    float: right;
-}
-.features-list-item:nth-child(-4n+7) .product-name::after {
-    display: block;
-    content: "\0024 21";
-    width: 54px;
-    margin-right: 0;
-    color: #ffffff;
-    background-color: #d4d6da;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 32px;
-    float: right;
-}
-.features-list-item:nth-child(-4n+6) .product-name::after {
-    display: block;
-    content: "\0024 31 ";
-    width: 54px;
-    margin-right: 0;
-    color: #ffffff;
-    background-color: #d4d6da;
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 32px;
-    float: right;
-}*/
 .features-list-item:hover p {
     background-color: rgb(0, 0, 255);
 }
@@ -291,17 +238,3 @@ img {
     background-color: rgb(78, 198, 171);
     border: none;
 }
-/*.button {
-    width: 160px;
-    height: 51px;
-    border: none;
-    margin: 0;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 600;
-    background-color: rgb(78, 198, 171);
-    border-radius: 3px;
-    color:#ffffff;
-    cursor: pointer;
-}*/
-
