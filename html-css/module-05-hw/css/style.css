@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 *,
 *::before,
@@ -38,7 +40,7 @@ h1::first-letter {
 }
 .page-header {
     margin-bottom: 32px;
-    width: 1600px;
+    max-width: 1100px;
 }
 .page-nav {
     padding: 38px 0;
@@ -70,7 +72,7 @@ img {
     padding-top: 8px;
 }
 .site-navigation li:not(:last-child) {
-    margin-right: 32px;
+    margin-right: 30px;
 }
 .site-navigation a:hover, 
 .site-navigation a:focus{
@@ -78,21 +80,27 @@ img {
 }
 /*Slider section*/
 .slider {
+    background-image: url(../img/slider-bg.jpg);
+    height: 600px;
+    background-size: cover;
+}
+.slider-block  {
     position: relative;
-    width: 1600px;
-    margin: auto;
+    height: 100%;
 }
 .slider-features h2 {
     position: absolute;
-    left: 50%;
+   
     margin: 0;
     padding: 0;
-    top: 206px;
-    transform: translateX(-50%);
+    
     text-transform: uppercase;
     color: #ffffff;
     font-size: 60px;
     line-height: 82px;
+    top: 206px;
+    left: 175px;
+    transform: translate();
 }
 .slide {
     margin: 0;
@@ -120,25 +128,26 @@ img {
     position: absolute;
     display: inline-block;
     width: 104px;
-    height:104px;
+    height: 104px;
     background-color: rgb(26, 188, 156);
     border: none;
-    top: 50%;
-    transform: translateY(-50%);
     cursor: pointer;
     color: #ffffff;
     font-weight: normal;
     z-index: 5;
     line-height: 104px;
+    top: 50%;
+    transform: translateY(-50%);
+    
 }
 .slider-ctrl img {
     margin: auto;
 }
 .slider-ctrl-prev {
-    left: 246px;
+    left: 0;
 }
 .slider-ctrl-next {
-    right: 246px;
+    right: 0;
 }
 
 /*New collection*/
@@ -146,7 +155,6 @@ img {
     padding-top: 94px;
     padding-bottom: 100px;
     background-color: #e9f0fd;
-    width: 1600px;
     margin: auto;
 }
 .new-collection-title {
@@ -205,8 +213,10 @@ img {
     position: absolute;
     margin: 0;
     padding: 0;
-    width: 255px;
-    height: 284px;
+    width: 234px;
+    height: 260px;
+    left: 10px;
+    top: 10px;
 }
 .collection-icon {
     display: none;
@@ -215,8 +225,8 @@ img {
     margin: 0;
     padding: 0;
     width: 168px;
-    left: 45px;
-    top: 90px;
+    left: 35px;
+    top: 80px;
 }
 .collection-icon-item {
     display: block;
@@ -254,7 +264,7 @@ img {
     padding-left: 60px;
     width: 168px;
     height: 50px;
-    left: 45px;
+    left: 35px;
     top: 148px;
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -348,7 +358,6 @@ img {
     margin-bottom: 30px;
 }
 .footer {
-    width: 1600px;
     height: 88px;
     margin: 0 auto;
     background-color: rgb(50, 50, 50);
