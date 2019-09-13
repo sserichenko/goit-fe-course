@@ -264,6 +264,7 @@ display: block;
     content:'';
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     display: block;
     height: 22px;
 }
@@ -292,12 +293,12 @@ display: block;
 .main__footer {
     padding-bottom: 12px;
     min-width: 100%;
+ 
 }
-    
 .footer__block {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 .par-rights {
@@ -308,7 +309,9 @@ display: block;
     color:#333333;
     font-size: 14px;
     line-height: 17px;
-    margin-right: 514px;
+}
+.form__par {
+    display: flex;
 }
 .form__par > p {
     margin: 0;
