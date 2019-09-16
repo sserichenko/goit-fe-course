@@ -330,11 +330,8 @@ body {
     background-image: url(../img/Background.png);;
     height: 676px;
     background-size: cover;
-    max-width: 1400px;
     margin: 0 auto;
     padding-top: 104px;
-    padding-left: 230px;
-    padding-right: 230px;
     padding-bottom: 114px;
 }
 .contact__title {
@@ -422,6 +419,7 @@ body {
     cursor: pointer;
     transition: all;
     transition-duration: 1s;
+    border: none;
 }
 .send__message__button:hover {
     transform: scale(1.1);
