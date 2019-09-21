@@ -332,7 +332,7 @@ body {
 /*Meet our team*/
 .our__team {
     padding-top: 45px;
-    padding-bottom: 84px;
+    padding-bottom: 72px;
 }
 .our__team__discr {
     margin: 0;
@@ -468,6 +468,7 @@ body {
 /*Footer*/
 .main__footer {
     padding-bottom: 12px;
+    padding-top: 12px;
     min-width: 100%;
 }
     
