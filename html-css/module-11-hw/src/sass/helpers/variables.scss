@@ -1,0 +1,49 @@
+$main-font-stack: 'Roboto', 'Montserrat',  sans-serif;
+$font-ro:'Roboto', sans-serif;
+$font-mo:'Montserrat', sans-serif;
+$font-ka:'Kaushan Script', serif;
+// Header
+$header-bgi: linear-gradient(90deg, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.8) 100%), url(../../../images/background@1x-min.jpg);
+$header-bgi--media: linear-gradient(90deg, rgba(252,227,138, 0.7) 0%, rgba(243,129,129, 0.7) 100%), url(../../../images/background@2x-min.jpg);
+$nav-link-color:#ffffff;
+$nav-link-fz: 14px;
+$nav-link-lh: 17px;
+$nav-link-af-bgcolor: #fce38a;
+$nav-link-hov-color: #fce38a;
+$nav-svg-st-fill: #fff;
+$nav-svg-hov-fill: #fce38a;
+$main__view-color: #fff;
+$main__view-fz: 72px;
+$main__view-lh: 86px;
+$main__title-color: #fff;
+$main__title-fz: 150px;
+$main__title-lh: 180px;
+$main__lear-more-color: #fff;
+$main__lear-more-fz: 14px;
+$main__lear-more-lh: 17px;
+// Section-servises
+$section-fcolor: #333333;
+$work-with-fz: 24px;
+$work-with-lh: 29px;
+$work-with-col: 29px;
+$serv-titl-fz: 30px;
+$serv-titl-lh: 36px;
+$serv-af-bgc: rgb(243, 129, 129);
+$serv-h3-fz: 14px;
+$serv-h3-lh: 17px;
+$serv-span-col: #999;
+$serv-span-fz: 15px;
+$serv-span-lh: 24px;
+// Section-team
+$discr-fz: 15px;
+$discr-lh: 18px;
+$soc-svg-stillcol: #f38181;
+$sec-svg-hovcol: #ffffff;
+// Footer
+$fot-foz: 14px;
+$fot-lh: 17px;
+$input-fz: 15px;
+$input-lh: 24px;
+$subsc-fz: 14px;
+$subsc-lh: 17px;
+$subsc-color: #fff;

@@ -1,0 +1,88 @@
+.main__footer {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  min-width: 100%;
+   &:hover {
+    .rights {
+      color:#f38181;}
+   }
+}
+
+.footer__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.par-rights {
+  margin: 0;
+  padding: 0;
+  font-family: $font-mo;
+  font-weight: 600;
+  color: $section-fcolor;
+  font-size: $fot-foz;
+  line-height: $fot-lh;
+
+}
+.form__par {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.form__par > p {
+  margin: 0;
+  padding: 0;
+}
+input[type="text"] {
+  font-size: $input-fz;
+  line-height: $input-lh;
+  font-family: $font-ro;
+  font-style: Italic;
+  font-weight: 200;
+  color: $section-fcolor;
+  width: 230px;
+  height: 40px;
+}
+.footer__subscribe {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  background-color: #cff1eb;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.footer__subscribe p {
+  margin: 0;
+  padding: 0;
+  font-size: $subsc-fz;
+  line-height: $subsc-lh;
+  font-family: $font-mo;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: $subsc-color;
+}
+.rights {
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+       -o-transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+          transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  -webkit-transition-delay: .2s;
+       -o-transition-delay: .2s;
+          transition-delay: .2s;
+}
+.main__footer:hover .rights {
+  color:#f38181;
+}
