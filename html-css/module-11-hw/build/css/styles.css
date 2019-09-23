@@ -473,7 +473,7 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.8) 100%), url(../../../images/background@1x-min.jpg);
+  background-image: linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.8) 100%), url(../images/background@1x-min.jpg);
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
@@ -670,27 +670,27 @@ body {
 }
 
 .icon__clock::before {
-  background-image: url(../../../images/background-icons/icon-clock.svg);
+  background-image: url(../images/background-icons/icon-clock.svg);
 }
 
 .icon__graph::before {
-  background-image: url(../../../images/background-icons/icon-line.svg);
+  background-image: url(../images/background-icons/icon-line.svg);
 }
 
 .icon__computer::before {
-  background-image: url(../../../images/background-icons/icon-computer.svg);
+  background-image: url(../images/background-icons/icon-computer.svg);
 }
 
 .icon__book::before {
-  background-image: url(../../../images/background-icons/icon-book.svg);
+  background-image: url(../images/background-icons/icon-book.svg);
 }
 
 .icon__house::before {
-  background-image: url(../../../images/background-icons/icon-home.svg);
+  background-image: url(../images/background-icons/icon-home.svg);
 }
 
 .icon__rectang::before {
-  background-image: url(../../../images/background-icons/icon-target.svg);
+  background-image: url(../images/background-icons/icon-target.svg);
 }
 
 .services__item h3 {
@@ -954,6 +954,6 @@ input[type="text"] {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header {
-    background-image: linear-gradient(90deg, rgba(252, 227, 138, 0.7) 0%, rgba(243, 129, 129, 0.7) 100%), url(../../../images/background@2x-min.jpg);
+    background-image: linear-gradient(90deg, rgba(252, 227, 138, 0.7) 0%, rgba(243, 129, 129, 0.7) 100%), url(../images/background@2x-min.jpg);
   }
 }

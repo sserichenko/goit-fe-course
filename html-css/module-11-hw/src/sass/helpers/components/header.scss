@@ -1,6 +1,6 @@
 .header {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(252,227,138, 0.9)), to(rgba(243,129,129, 0.9))), url(../../../images/background@1x-min.jpg);
-  background-image: -o-linear-gradient(left, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.8) 100%), url(../../../images/background@1x-min.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(252,227,138, 0.9)), to(rgba(243,129,129, 0.9))), url(../images/background@1x-min.jpg);
+  background-image: -o-linear-gradient(left, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.8) 100%), url(../images/background@1x-min.jpg);
   background-image: $header-bgi;
   width: 100%;
   height: auto;
@@ -139,8 +139,8 @@
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header {
-      background-image: -webkit-gradient(linear, left top, right top, from(rgba(252,227,138, 0.7)), to(rgba(243,129,129, 0.7))), url(../../../images/background@1x-min.jpg);
-      background-image: -o-linear-gradient(left, rgba(252,227,138, 0.7) 0%, rgba(243,129,129, 0.7) 100%), url(../../../images/background@1x-min.jpg);
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(252,227,138, 0.7)), to(rgba(243,129,129, 0.7))), url(../images/background@1x-min.jpg);
+      background-image: -o-linear-gradient(left, rgba(252,227,138, 0.7) 0%, rgba(243,129,129, 0.7) 100%), url(../images/background@1x-min.jpg);
       background-image: $header-bgi--media;
   }
 }
